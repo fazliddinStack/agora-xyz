@@ -80,3 +80,36 @@ body {
       margin: 20px 0 0 -490px;
    }
 }
+
+.header-images {
+   max-width: 500px;
+   margin: 70px 0 0;
+   display: flex;
+   justify-content: center;
+}
+
+.header-images img {
+   width: 100%;
+   height: auto;
+}
+
+.header-images img:nth-child(1) {
+   width: 120%;
+   position: relative;
+   z-index: -1;
+   left: -100px;
+}
+
+.header-images img:nth-child(2) {
+   width: 1440px;
+   position: relative;
+   z-index: 1;
+   left: -120px;
+}
+
+.header-images img:nth-child(3) {
+   margin-left: -250px;
+   width: 120%;
+   position: relative;
+   z-index: -1;
+}
